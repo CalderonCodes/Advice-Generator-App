@@ -4,6 +4,10 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    minHeight: {
+      '1/2': '50%',
+      '45%': '45%',
+    },
     colors: {
       LightCyan: 'hsl(193, 38%, 86%)',
       NeonGreen: 'hsl(150, 100%, 66%)',
